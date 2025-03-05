@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Faiqotul Romadhania</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Global Style */
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Header Medsos */
+    .medsos {
+      background-color: #ed24c5;
+      padding: 10px 0;
+    }
+
+    .medsos ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    .medsos ul li {
+      margin-right: 20px;
+    }
+
+    .medsos ul li a {
+      color: #fff;
+      font-size: 1.0em;
+      transition: color 0.3s;
+    }
+
+    .medsos ul li a:hover {
+      color: #f0e68c;
+    }
+
+    /* Header Navigasi */
+    header {
+      background-color: #f8f9fa;
+      padding: 15px 0;
+      border-bottom: 2px solid #ed24c5;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    header h1 a {
+      color: #ed24c5;
+      text-decoration: none;
+      font-size: 1.0em;
+    }
+
+    header ul {
+      list-style: none;
+      display: flex;
+    }
+
+    header ul li {
+      margin-left: 20px;
+    }
+
+    header ul li a {
+      color: #ed24c5;
+      text-decoration: none;
+      padding: 8px 12px;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    header ul li a:hover,
+    header ul li.active a {
+      background-color: #ed24c5;
+      color: #fff;
+      margin: 3px;
+    }
+
+    /* Banner */
+    .banner {
+      height: 60vh;
+      background: url('img/bg.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .banner::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 34, 240, 0.6);
+    }
+
+    .banner h2 {
+      color: #fff;
+      font-size: 2.5em;
+      z-index: 1;
+      text-align: center;
+      padding: 20px;
+      border: 3px solid #fff;
+      border-radius: 10px;
+    }
+  @media (max-width: 768px) {
+  .container{
+    width: 100%;
+    flex-direction: column;
+  }
+  header h1{
+    text-align: center;
+    float: none;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .banner h2{
+    font-size: 1.6rem;
+    padding: 10px;
+  }
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- Header Medsos -->
+  <div class="medsos">
+    <div class="container">
+      <ul>
+        <li><a href="https://www.tiktok.com/@xxixioxio?_t=ZS-8uQ6SpOZhtC&_r=1"><i class="fab fa-tiktok"></i></a></li>
+        <li><a href="https://www.instagram.com/_xxixio.xio/profilecard/?igsh=ZjJ0a3F6c3N2MmJz"><i
+              class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Header Navigasi -->
+  <header>
+    <div class="container">
+      <h1><a href="index.html">Faiqotul Romadhania</a></h1>
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="kontak.php">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h2>Welcome To My Website</h2>
+  </section>
+
+</body>
+</html>
