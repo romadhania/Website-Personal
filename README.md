@@ -1,4 +1,4 @@
-## Proyek UTS Web
+## Proyek diBimbing
 
 - Proyek ini adalah proyek web yang terdiri dari beberapa halaman dan aset pendukung. Berikut adalah gambaran umum tentang struktur dan rincian proyek ini:
 
@@ -31,5 +31,5 @@
 
 ## Penulis
 
-- Shofirotul Haniyah 
+- Faiqotul Romadhania
 - Desainer web dan pengembang front-end dengan keahlian di bidang seni digital serta desain UI/UX.
